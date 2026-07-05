@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: kyrabot-premium
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start

@@ -1,0 +1,9 @@
+{
+  "name":"kyrabot-premium-complete",
+  "version":"3.0.0",
+  "description":"KyraBot Premium Complete",
+  "main":"src/index.js",
+  "scripts":{"start":"node src/index.js","deploy":"node src/deploy-commands.js"},
+  "dependencies":{"discord.js":"^14.15.3","dotenv":"^16.4.5","express":"^4.19.2"},
+  "engines":{"node":">=18.0.0"}
+}
